@@ -12,5 +12,12 @@ body {
 }
 
 @font-face {
-	
+font-family: "CustomFont";
+src: url("https://theepicprogrammer.github.io/css/fonts/nunito-regular-webfont.woff") format("woff"),
+}
+
+ 
+
+#links{
+	color:red;
 }
