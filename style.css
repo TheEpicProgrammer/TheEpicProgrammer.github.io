@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 #green {
 	color: #28f747;
@@ -9,12 +9,7 @@
 	
 }
 
-@font-face {
-font-family: "CustomFont";
-src: url("https://theepicprogrammer.github.io/css/fonts/nunito-regular-webfont.woff") format("woff"),
-}
 
- 
 
 #links{
 	color:red;
@@ -22,7 +17,7 @@ src: url("https://theepicprogrammer.github.io/css/fonts/nunito-regular-webfont.w
 
 body {
 	background: #2ECFE8;
-	font-family:'CustomFont';
+	font-family:'Sans Serif';
 	font-weight: normal;
 	font-style: normal;
 }
