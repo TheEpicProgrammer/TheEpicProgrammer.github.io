@@ -1,6 +1,4 @@
-body {
-	background: #2ECFE8;
-}
+
 
 #green {
 	color: #28f747;
@@ -20,4 +18,11 @@ src: url("https://theepicprogrammer.github.io/css/fonts/nunito-regular-webfont.w
 
 #links{
 	color:red;
+}
+
+body {
+	background: #2ECFE8;
+	font-family:'CustomFont';
+	font-weight: normal;
+	font-style: normal;
 }
