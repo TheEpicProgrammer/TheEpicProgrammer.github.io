@@ -1,14 +1,14 @@
 body {
-	background: #FFFFFFF;
+	background: #b0cbf2;
 }
 
-#green {
-	color: #28f747;
+#title {
+	color: #4680d6;
 
 }
 
 #description {
-	color: #ede61a;
+	color: #FF0000;
 
 	
 }
@@ -18,6 +18,6 @@ body {
 }
 
 #projects-section{
-	color: #28f747;
+	color: #4680d6;
 }
 
