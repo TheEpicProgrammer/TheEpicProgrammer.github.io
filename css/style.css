@@ -21,3 +21,11 @@ body {
 	color: #4680d6;
 }
 
+@font-face {
+	font-family: nunito;
+	src: url(css/fonts/nunito-regular-webfont.woff) format('woff');
+}
+
+body {
+	font-family: nunito;
+}
