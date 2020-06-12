@@ -3,23 +3,12 @@
     <head>
 	    <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-	    <title>My website</title>
-	    <h1 id="title">TheEpicProgrammer's Programming Website</h1>
-	    <link rel="stylesheet" type="text/css" href="css/style.css">
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-</style>
-<nav class="navbar">
-            <a href="projects.html">Projects</a>
-            <a href="index.html">Home</a>
-        </nav>
-
-    </head>
-    <body>
-
-        
         <script type="text/javascript">
-            function e() {window.alert("E")}
+            function e() {
+                document.getElementsByTagName("h1").innerHTML = "e";
+                window.alert("E");
+
+        }
             function crashbrowser() {
                 while (true) {
                     console.log("Crashing...")
@@ -29,14 +18,30 @@
 
 
         </script>
-        <h3 id="description">I am Alex and this is my website.</h3>
-        <h4>I am a programmer. My main language is Python. I am currently learning Roblox game developement</h4>
-        <hr class="topHr" autofocus>
-        <h3 id="links">Links</h3>
+	    <title>My website</title>
+	    <h1 class="e1" id="title">TheEpicProgrammer's Programming Website</h1>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+</style>
+<nav class="navbar">
+            <a class="e" id="e" href="projects.html">Projects</a>
+            <a class="e" href="index.html">Home</a>
+        </nav>
+
+    </head>
+    <body>
+
+        
+        
+        <h3 class="e" id="description">I am Alex and this is my website.</h3>
+        <h4 class="e" >I am a programmer. My main language is Python. I am currently learning Roblox game developement</h4>
+        <hr class="e" class="topHr" autofocus>
+        <h3 class="e" id="links">Links</h3>
         <h5>really helps to check out</h5>
-        <a href="https://web.roblox.com/groups/6036412/Coders-Club#!/about">My Roblox group.</a>
-        <a href="https://github.com/TheEpicProgrammer">My Github Profile</a>
-        <a href="https://www.roblox.com/users/1341097519/profile">My Roblox Profile</a>
+        <a class="e" href="https://web.roblox.com/groups/6036412/Coders-Club#!/about">My Roblox group.</a>
+        <a class="e" href="https://github.com/TheEpicProgrammer">My Github Profile</a>
+        <a class="e" href="https://www.roblox.com/users/1341097519/profile">My Roblox Profile</a>
         <button type="button" onclick="e();" autofocus>E</button>
         <button type="button" onclick="crashbrowser();" autofocus="">Crash Browser LOL</button>
     </body>
