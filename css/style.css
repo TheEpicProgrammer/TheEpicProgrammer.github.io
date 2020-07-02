@@ -8,7 +8,7 @@ body {
 }
 
 #description {
-	color: #FF0000;
+	color: #3E38F2;
 
 	
 }
@@ -48,5 +48,11 @@ body {
 
 #projectname {
 	color: #E91313;
+}
+
+
+
+.lower {
+    background-color: #829FD9;
 }
 
