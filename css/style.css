@@ -4,13 +4,15 @@ body {
 
 #title {
 	color: #4680d6;
+	border: 4px blue solid;
+	text-align: center;
 
 }
 
 #description {
 	color: #3E38F2;
 
-	
+
 }
 
 @import {
@@ -43,7 +45,7 @@ body {
 	text-decoration: none;
 	float: left;
 	width: 15%;
-	background: #b0cbf2; 
+	background: #b0cbf2;
 }
 
 #projectname {
@@ -57,5 +59,3 @@ body {
 .lower {
     background-color: #829FD9;
 }
-
-
