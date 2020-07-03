@@ -26,17 +26,17 @@ body {
 	src: url(css/fonts/nunito-regular-webfont.woff) format('woff');
 }
 
-body {
+html {
 	font-family: 'Nunito', sans-serif;
 }
 
-.navbar {
+#navbar {
 	display: inline-block;
 	border: 2px solid black;
 	width: 100%;
 }
 
-.navbar a {
+#navbar a {
 	padding: 10px 15px;
 	text-align: center;
 	color: black;
@@ -50,3 +50,12 @@ body {
 	color: #E91313;
 }
 
+li a {
+	background: aqua;
+	padding: 3px;
+	margin: 0px;
+}
+
+#nav_div {
+	color: 
+}
