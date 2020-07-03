@@ -3,13 +3,17 @@
     <head>
 	    <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script type="text/javascript">
             function e() {
                 window.alert("E");
+
                 for(i=1;1<30;i++){
                     var eElement = document.getElementById("title");
                     eElement.innerHTML = "E";
@@ -17,6 +21,7 @@
 
 
                 }
+
 
             }
             function crashbrowser() {
@@ -28,26 +33,38 @@
 
 
         </script>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+</style>
+
+        <div class="top">
 	    <h1 id="title">TheEpicProgrammer's Website</h1>
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
         </style>
-    <div id="nav_div">
-    <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-    </ul>
-    </div>
+        <ul class="nav" id="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+
+        </ul>
+
+
+
+
+        </div>
+
 
     </head>
     <body>
 
 
+        <div class="lower"></div>
 
         <h3 class="e" id="description">I am Alex and this is my website.</h3>
         <h4 class="e" >I am a programmer. My main language is Python. I am currently learning Roblox game developement</h4>

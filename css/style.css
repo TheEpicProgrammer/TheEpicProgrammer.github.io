@@ -4,13 +4,15 @@ body {
 
 #title {
 	color: #4680d6;
+	border: 4px blue solid;
+	text-align: center;
 
 }
 
 #description {
-	color: #FF0000;
+	color: #3E38F2;
 
-	
+
 }
 
 @import {
@@ -43,19 +45,17 @@ html {
 	text-decoration: none;
 	float: left;
 	width: 15%;
-	background: #b0cbf2; 
+	background: #b0cbf2;
 }
 
 #projectname {
 	color: #E91313;
 }
 
-li a {
-	background: aqua;
-	padding: 3px;
-	margin: 0px;
-}
 
-#nav_div {
-	color: 
+
+
+
+.lower {
+    background-color: #829FD9;
 }
