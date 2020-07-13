@@ -1,3 +1,53 @@
-body {
+html {
 	background: #b0cbf2;
+}
+
+#title {
+	color: #4680d6;
+	border: 4px blue solid;
+	text-align: center;
+
+}
+
+#description {
+	color: #3E38F2;
+
+
+}
+
+
+
+#projects-section{
+	color: #4680d6;
+}
+
+
+html {
+	font-family: 'Nunito', sans-serif;
+}
+
+
+
+#projectname {
+	color: #E91313;
+}
+
+p {
+	color: #230A59;
+}
+
+h3 {
+	color: #230A59;
+
+
+}
+
+h4 {
+	color: #230A59;
+}
+
+
+
+.lower {
+    background-color: #829FD9;
 }

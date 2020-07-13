@@ -1,4 +1,4 @@
-body {
+html {
 	background: #b0cbf2;
 }
 
@@ -15,38 +15,18 @@ body {
 
 }
 
-@import {
 
-}
 
 #projects-section{
 	color: #4680d6;
 }
 
-@font-face {
-	font-family: nunito;
-	src: url(css/fonts/nunito-regular-webfont.woff) format('woff');
-}
+
 
 html {
 	font-family: 'Nunito', sans-serif;
 }
 
-#navbar {
-	display: inline-block;
-	border: 2px solid black;
-	width: 100%;
-}
-
-#navbar a {
-	padding: 10px 15px;
-	text-align: center;
-	color: black;
-	text-decoration: none;
-	float: left;
-	width: 15%;
-	background: #b0cbf2;
-}
 
 #projectname {
 	color: #E91313;
